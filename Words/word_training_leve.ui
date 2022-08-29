@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>word_training_leve</class>
+ <widget class="QWidget" name="word_training_leve">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>558</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>难度选择</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#word_training_leve{border-image: url(:/Yosemite-Color-Block.png);}</string>
+  </property>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>191</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(30, 84, 145);</string>
+   </property>
+   <property name="text">
+    <string>难度选择:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_esay">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>易</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_mid">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>170</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>中</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_hard">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>270</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>难</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_back">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>330</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

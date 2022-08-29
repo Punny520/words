@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Word_Main_meun</class>
+ <widget class="QWidget" name="Word_Main_meun">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>主菜单</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Word_Main_meun{border-image: url(:/Yosemite-Color-Block.png);}</string>
+  </property>
+  <widget class="QPushButton" name="but_words_training">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>单词识记训练</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_words_test">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>100</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>词汇测试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_words_books">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>260</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>单词本</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_lookup">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>260</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>查单词</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_myinf">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>116</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>个人信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_back_to">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>400</y>
+     <width>166</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/**正常情况下样式**/
+QPushButton{
+	font: 15pt &quot;微软雅黑&quot;;
+    color: #1e5491;
+    background-color: #eec0da;
+    border-color: #567cbe;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #1e5491;
+    background-color: #c0a1cc;
+    border-color: #567cbe;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #eddfed;
+    background-color: #1c58a3;
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>退回登入界面</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

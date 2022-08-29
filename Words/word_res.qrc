@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>word_1.png</file>
+        <file>Yosemite-Color-Block.png</file>
+        <file>start_page.PNG</file>
+        <file>tubiao.png</file>
+    </qresource>
+</RCC>
