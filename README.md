@@ -11,7 +11,7 @@
 词汇测试，按难度等级自动给出测试题目，要求用户限时完成，并记忆用户答题情况，按难度设计过关任务。
 词典查询，提供中英互查功能。
 # 需求分析
-![功能需求分析](https://user-images.githubusercontent.com/41753947/187102823-fd0edd79-7ee7-4caa-a8f3-6e09f0a67932.png)
+![图片1](https://user-images.githubusercontent.com/41753947/187103421-207720d8-69c2-414b-9b60-65b55e84174a.png)
 # 部分软件截图
 ![image](https://user-images.githubusercontent.com/41753947/187102871-d01d1bf2-07a2-4143-849a-f0a755137f54.png)
 ![image](https://user-images.githubusercontent.com/41753947/187102896-3c8abe36-5513-4ee7-b134-9744c8db36c9.png)
